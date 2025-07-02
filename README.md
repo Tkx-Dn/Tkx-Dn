@@ -1,16 +1,21 @@
-## Hi there 👋
+👋 Olá!
+Eu sou o Arthur
+Sou estudante e estou cursando em programação. 🚀
 
-<!--
-**Tkx-Dn/Tkx-Dn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+📚 Aprendendo atualmente:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Lógica de programação 
+
+---
+
+📫 Contato:
+
+Email: arthurvd2009@hotmail.com
+
+---
+
+💡 Objetivo:
+
+Me desenvolver como programador e criar meus próprios projetos!
