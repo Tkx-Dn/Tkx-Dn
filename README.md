@@ -12,7 +12,7 @@ Lógica de programação
 
 📫 Contato:
 
-Email: arthurvd2009@hotmail.com
+Email: arthurvieiraduques@gmail.com
 
 ---
 
