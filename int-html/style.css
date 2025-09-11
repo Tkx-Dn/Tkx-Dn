@@ -1,0 +1,31 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 56px;
+    color: rgb(17, 0, 255);
+}
+
+p{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(220, 231, 56);
+    font-weight: bold;
+
+}
+a:hover{cursor:pointer ;
+
+}
+
+img{
+    width: 17%;
+    border-radius: 8px;
+}
+
