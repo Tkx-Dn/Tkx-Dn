@@ -6,8 +6,9 @@
 //console.log(somar());
 //
 // criar uma nova função que multiplique 2 por 3, e execute-a
-function multiplicar() {
-    return 2 * 3;
-}
+// function multiplicar() {
+//     return 2 * 3;
+// }
 
-console.log(multiplicar())
+// console.log(multiplicar())
+

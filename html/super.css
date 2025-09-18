@@ -1,0 +1,7 @@
+body{
+    background-color: whitesmoke;
+}
+.Imagens{
+display: flex;
+    justify-content: center;
+}
