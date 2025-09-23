@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="/enviar" method="post">
+    <fieldset>
+    Nome: <input type="text" name="Nome" placeholder="Coloque seu nome"> <br>
+    </fieldset>
+    <fieldset>
+    Senha: <input type="password" name="Senha" placeholder="Adicione uma senha"><br>
+    </fieldset>
+    <fieldset>
+    Idade:  <input type="number" name="Idade" placeholder="Insira sua idade"><br>
+    </fieldset>
+    <fieldset>
+    Telefone: <input type="number" name="Telefone" placeholder="Insira seu telefone"><br>
+    </fieldset>
+    <fieldset>
+    Email: <input type="email" name="Email" placeholder="Insira seu email"><br>
+    </fieldset>
+    <fieldset>
+      Descrição:
+      <textarea name="Descrição" id="Descrição" placeholder="Conte sobre você" rows="5" cols="120" minlength="300"></textarea>
+       </fieldset>
+      <fieldset>
+      <select name="" id="">
+        <option value="Homem">Homem</option>
+        <option value="Mulher">Mulher</option>
+      </select>
+    </fieldset>
+      <fieldset class="Consentimento">
+        <input type="checkbox" name="Consentimento">
+        Eu li e concordo com os termos do formulário <id="Consentimento">
+      </fieldset>
+      <fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+      </fieldset>
+  </form>
+</body>
+</html>
