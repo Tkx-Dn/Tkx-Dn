@@ -1,4 +1,4 @@
-let numero = 1
+let numero = 0
 //titulo.innerHTML = "<h2>Titulo 2</h2>" 
 //let titulo = document.getElementById("titulo") 
 let button = document.getElementById("button") 
