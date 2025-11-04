@@ -1,53 +1,84 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
     display: grid;
     grid-template-rows: 80px 1fr 60px;
 }
-header{
-background-color: darkslategray;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+
+header {
+    background-color: rgb(68, 70, 70);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-main{
-background-color: blanchedalmond;
+
+main {
+    background-color: rgb(126, 125, 125);
 }
-footer{
-background-color: black;
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 62, 62);
 }
-div{
+
+div {
     text-align: center;
     font-size: 18px;
 }
-#minha-foto{
+
+#minha-foto {
     width: 300px;
     border-radius: 100%;
 }
-.Sobre-mim{
+
+.Sobre-mim {
     display: flex;
     margin: 100px;
     justify-content: center;
 }
-#texto-sobre-mim{
+
+#texto-sobre-mim {
     margin: 20px;
     padding: 20px;
     max-width: 600px;
     font-size: 20px;
-    border: 1px solid  #212227;
+    border: 1px solid #212227;
     border-radius: 50px;
-    background-color: #8693ab;
+    background-color: #38383a;
 }
-p{
+
+p {
     margin: 0px;
     padding: 0px;
 }
-.items{
+
+.items {
     display: flex;
+    justify-content: center;
     gap: 10px;
+
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
-.item{
-    height: 400px;
+
+.item {
+    min-height: 200px;
     width: 300px;
     border: 2px solid black;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-img1{
+    width: 100%;
+}
+.item-img2{
+    width: 70%;
+}
+.item-img3{
+    width: 180%; 
 }
