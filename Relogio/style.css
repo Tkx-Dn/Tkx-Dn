@@ -1,0 +1,46 @@
+:root{
+    --corescura: #1C1D21;
+    --corclara: #00ffff;
+    --corclaraescura: #00ffff8c;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: var(--corescura);
+    color: var(--corclara);
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+p{
+    font-size: 4em;
+    border: 2px solid var(--corclara);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 5px 5px var(--corclaraescura);
+}
+
+h1{
+margin: 20px 0px;
+}
+
+button{
+    background-color: var(--corclara);
+    font-size: 1em;
+    box-shadow: 0px 0px 5px 1px var(--corclaraescura);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
