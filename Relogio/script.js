@@ -40,10 +40,25 @@ segundo = String(segundo).padStart(2, "0")
 }
 
 let id
+let ativo = false
 iniciar.addEventListener("click", () =>{
+   if(ativo == false){
    id = setInterval(attcr, 1000)
+   ativo = true
+   }
 })
 
 parar.addEventListener("click", () =>{
     clearInterval(id)
 })
+
+zerar.addEventListener("click", () => {
+    segundo = 0
+    minuto = 0
+    hora = 0
+    hora = String(hora).padStart(2, "0")
+minuto = String(minuto).padStart(2, "0")
+segundo = String(segundo).padStart(2, "0")
+      cronometro.innerText = hora + ":" + minuto + ":" + segundo
+})
+
