@@ -1,0 +1,9 @@
+body{
+    background-color: #E2E2E2;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;;
+    justify-content: center;
+}
