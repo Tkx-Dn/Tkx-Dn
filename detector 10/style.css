@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.coordenadas {
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.coordenadas p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.coordenadas span {
+    font-weight: bold;
+    color: #2a7bd2;
+}

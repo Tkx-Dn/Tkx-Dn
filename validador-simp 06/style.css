@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input {
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+}
+
+.erro {
+    border: 1px solid red !important;
+}
+
+#mensagem-erro {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

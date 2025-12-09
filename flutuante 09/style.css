@@ -1,0 +1,40 @@
+
+#btnNotif {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#notification-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+
+.notification {
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.4s ease;
+}
+
+
+.notification.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.notification.hide {
+    opacity: 0;
+    transform: translateX(50px);
+}
