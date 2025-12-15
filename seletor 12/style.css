@@ -1,0 +1,13 @@
+#estrelas {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.estrela-vazia::before {
+  content: "☆";
+}
+
+.estrela-cheia::before {
+  content: "★";
+  color: gold;
+}
