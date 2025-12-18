@@ -11,7 +11,10 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   background-color: #000000;
+=======
+>>>>>>> 51cca6cd04177c7c6542c3179b6139f36311ea28
 }
 
 #codigo {
