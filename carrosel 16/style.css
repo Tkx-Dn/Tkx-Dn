@@ -1,0 +1,16 @@
+#carrossel {
+  width: 400px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#imagem {
+  width: 100%;
+  margin: 10px 0;
+  transition: opacity 0.3s ease;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+}

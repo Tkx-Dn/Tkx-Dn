@@ -1,0 +1,32 @@
+#citação-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+#citação {
+  font-size: 1.5em;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+#autor {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
