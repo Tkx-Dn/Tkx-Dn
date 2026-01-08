@@ -2,23 +2,21 @@
 const input = document.getElementById('filtro');
 const tabela = document.getElementById('tabela').getElementsByTagName('tbody')[0];
 
-// Função para filtrar a tabela
 function filtrarTabela() {
-  const filtro = input.value.toLowerCase(); // texto digitado
+  const filtro = input.value.toLowerCase();
   const linhas = tabela.getElementsByTagName('tr');
 
   for (let i = 0; i < linhas.length; i++) {
-    const celulaNome = linhas[i].getElementsByTagName('td')[0]; // filtrando pela coluna "Nome"
-    if (celulaNome) {
-      const textoCelula = celulaNome.textContent || celulaNome.innerText;
-      if (textoCelula.toLowerCase().indexOf(filtro) > -1) {
-        linhas[i].style.display = ''; // mostra a linha
+    const Nome = linhas[i].getElementsByTagName('td')[0];
+    if (Nome) {
+      const Celula = Nome.textContent || Nome.innerText;
+      if (Celula.toLowerCase().indexOf(filtro) > -1) {
+        linhas[i].style.display = '';
       } else {
-        linhas[i].style.display = 'none'; // esconde a linha
+        linhas[i].style.display = 'none';
       }
     }
   }
 }
 
-// Adiciona evento keyup ao input
 input.addEventListener('keyup', filtrarTabela);
