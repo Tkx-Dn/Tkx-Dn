@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background: #fffdfd;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.caixa {
+    background: rgb(241, 238, 238);
+    width: 320px;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+
+input, select, button {
+    padding: 6px;
+    margin: 4px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgb(255, 255, 255);
+}
+
+th, td {
+    padding: 6px 10px;
+    border: 1px solid #ffffff;
+}
+
+tbody tr{
+    background: #aaa7a78c;
+}

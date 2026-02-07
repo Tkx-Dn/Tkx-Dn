@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Campeonato</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<h1>Campeonato</h1>
+
+<div class="caixa">
+    <h3>Adicionar Time</h3>
+    <input id="nomeTime">
+    <button onclick="addTime()">Adicionar</button>
+</div>
+
+<div class="caixa">
+    <h3>Registrar Jogo</h3>
+
+    <select id="mandante"></select>
+    <input id="golsM" type="number">
+
+    <span> x </span>
+
+    <input id="golsV" type="number">
+    <select id="visitante"></select>
+
+    <br><br>
+    <button onclick="jogar()">Registrar</button>
+</div>
+
+<h3>Tabela</h3>
+
+<table>
+    <tr>
+        <th>Nome do Time</th>
+        <th>Pontos</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Gols Marcados</th>
+        <th>Gols Sofridos</th>
+        <th>Saldo de Gols</th>
+    </tr>
+    <tbody id="tabela"></tbody>
+</table>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
